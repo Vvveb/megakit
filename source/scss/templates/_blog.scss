@@ -47,7 +47,7 @@
 }
 
 
-.pagination .nav-links span.current,
+.pagination .nav-links span.active a,
 .pagination .nav-links a.next,
 .pagination .nav-links a.prev {
   color: $black;
@@ -92,6 +92,9 @@ h3.quote::before {
   position: relative;
   @extend .overly-2;
   padding-bottom: 150px;
+  
+  .container {position:relative}
+
 }
 
 .mt-70 {

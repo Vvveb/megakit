@@ -2,13 +2,19 @@
 
 Megakit is a well-crafted, versatile and unique HTML5 agency template. Its wonderful features can be used to enhance the websites of IT firms, digital agencies, and creative professionals.
 
+## [Vvveb CMS](https://www.vvveb.com) theme.
+
+👉🏻 [Theme page](https://themes.vvveb.com/product/megakit) 
+👉🏻 [Theme development documentation](http://dev.vvveb.com/theme-introduction)
+
+Use this template either as a standalone Bootstrap 5 template or as a Vvveb CMS theme.
 <!-- demo -->
 ## Example Site
 
-| [![](screenshots/homepage.png)](https://demo.themefisher.com/megakit/) | [![](screenshots/about.png)](https://demo.themefisher.com/megakit/about.html) | [![](screenshots/service.png)](https://demo.themefisher.com/megakit/service.html) |
+| [![](https://github.com/themefisher/megakit-bootstrap/blob/main/screenshots/homepage.png)](https://demo.themefisher.com/megakit/) | [![](https://github.com/themefisher/megakit-bootstrap/blob/main/screenshots/about.png)](https://demo.themefisher.com/megakit/about.html) | [![](https://github.com/themefisher/megakit-bootstrap/blob/main/screenshots/service.png)](https://demo.themefisher.com/megakit/service.html) |
 |:---:|:---:|:---:|
 | **Homepage**  | **About**  | **Service**  |
-| [![](screenshots/portfolio.png)](https://demo.themefisher.com/megakit/project.html) | [![](screenshots/blog.png)](https://demo.themefisher.com/megakit/blog-grid.html) | [![](screenshots/contact.png)](https://demo.themefisher.com/megakit/contact.html) |
+| [![](https://github.com/themefisher/megakit-bootstrap/blob/main/screenshots/portfolio.png)](https://demo.themefisher.com/megakit/project.html) | [![](https://github.com/themefisher/megakit-bootstrap/blob/main/screenshots/blog.png)](https://demo.themefisher.com/megakit/blog-grid.html) | [![](https://github.com/themefisher/megakit-bootstrap/blob/main/screenshots/contact.png)](https://demo.themefisher.com/megakit/contact.html) |
 | **Portfolio** | **Blogs** | **Contact** |
 
 👉🏻[View Live Preview](https://demo.themefisher.com/megakit/)
@@ -29,7 +35,7 @@ Megakit is a well-crafted, versatile and unique HTML5 agency template. Its wonde
 <!-- download -->
 ## Download And installation
 
-Download this template from [Github](https://github.com/themefisher/megakit/archive/main.zip)
+Download this template from [Github](https://github.com/Vvveb/megakit/archive/main.zip)
 
 <!-- installation -->
 ### Basic Usages
@@ -97,9 +103,11 @@ If you have questions or need help integrating the product please [contact us](m
 
 Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
 
-**Code License:** Released under the [MIT](https://github.com/themefisher/megakit/blob/main/LICENSE) license.
+**Code License:** Released under the [MIT](https://github.com/Vvveb/megakit/blob/main/LICENSE) license.
 
 **Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
+
+**Vvveb CMS integration** Changes released under the MIT license.
 
 <!-- resources -->
 ## Resources

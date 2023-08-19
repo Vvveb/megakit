@@ -9,7 +9,11 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-md-12 col-sm-12">
-				<form id="contact-form" class="contact__form" method="post" action="index.html">
+				<form id="contact-form" class="contact__form" method="post" action="" data-v-component-plugin-contact-form-form data-v-storage="database" data-v-name="contact-us">
+					<input type="hidden" class="form-control" placeholder="First name" name="firstname-empty">
+					
+					@@include('notifications.html')
+					
 					<h3 class="text-md mb-4">Contact Form</h3>
 					<div class="form-group">
 						<input name="name" type="text" class="form-control" placeholder="Your Name" required>
@@ -20,6 +24,15 @@
 					<div class="form-group-2 mb-4">
 						<textarea name="message" class="form-control" rows="4" placeholder="Your Message" required></textarea>
 					</div>
+					
+					 <!-- if these hidden inputs are filled then ignore, robots -->
+
+					 <input type="text" class="form-control d-none" placeholder="Contact form" name="contact-form" >	
+					 
+					 <input type="text" class="form-control d-none" placeholder="Subject" name="subject-empty" >	
+					 
+					 <input type="text" class="form-control visually-hidden" placeholder="Last name" name="lastname-empty" tabindex="-1">	
+										
 					<button class="btn btn-main" name="submit" type="submit">Send Message</button>
 				</form>
 			</div>
@@ -29,15 +42,15 @@
 					<span class="text-muted">We are Professionals</span>
 					<h2 class="mb-5 mt-2">Don’t Hesitate to contact with us for any kind of information</h2>
 
-					<ul class="address-block list-unstyled">
+					<ul class="address-block list-unstyled" data-v-component-site>
 						<li>
-							<i class="ti-direction mr-3"></i>North Main Street,Brooklyn Australia
+							<i class="ti-direction me-3"></i> <span data-v-site-address>North Main Street,Brooklyn Australia</span>
 						</li>
 						<li>
-							<i class="ti-email mr-3"></i>Email: contact@mail.com
+							<i class="ti-email me-3"></i>Email: <span data-v-site-phone-number>contact@mail.com</span>
 						</li>
 						<li>
-							<i class="ti-mobile mr-3"></i>Phone:+88 01672 506 744
+							<i class="ti-mobile me-3"></i>Phone: <span data-v-site-contact-email>+88 01672 506 744</span>
 						</li>
 					</ul>
 

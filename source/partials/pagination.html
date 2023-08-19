@@ -1,0 +1,17 @@
+<div data-pagination data-v-parent-component="@@component" data-v-parent-index="@@component-index"
+data-v-parameters='{@@if (typeof parameters === "object") {
+	@@for (let k in parameters) {"`+k+`":"`+parameters[k]+`"}
+}}'	
+> 
+
+	<nav class="navigation pagination py-2 d-inline-block" data-v-if="pagecount > 1">
+			<div class="nav-links">
+				<span data-next><a class="prev page-numbers" href="#" data-page-url>Prev</a></span>
+				<span data-page><a class="page-numbers" href="#" data-page-no data-page-url>2</a></span>
+				<span data-next><a class="next page-numbers" href="#" data-page-url>Next</a></span>
+			</div>
+	</nav>
+
+
+</div>
+

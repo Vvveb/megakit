@@ -1,6 +1,7 @@
 <footer class="footer section">
-  <div class="container">
-    <div class="row">
+  <div class="container" data-v-component-menu="footer" data-v-slug="main-footer">
+    <div class="row" data-v-menu-items>
+<!--
       <div class="col-lg-3 col-md-6 col-sm-6">
         <div class="widget">
           <h4 class="text-capitalize mb-4">Company</h4>
@@ -13,18 +14,59 @@
           </ul>
         </div>
       </div>
-      <div class="col-lg-2 col-md-6 col-sm-6">
-        <div class="widget">
-          <h4 class="text-capitalize mb-4">Quick Links</h4>
+-->
+	 <div class="col-lg-3 col-md-6 col-sm-6" data-v-menu-item data-v-if="category.children > 0">
+			<div class="footer-widget footer-link">
+			<h4  class="text-capitalize mb-4" data-v-menu-item-name>Vvveb</h6>
+			<ul class="list-unstyled footer-menu lh-35" data-v-menu-item-recursive>
+				<li data-v-menu-item data-v-if="category.children == 0">
+					<a href="https://themes.vvveb.com/" data-v-menu-item-url><span data-v-menu-item-name>Themes</span></a>
+				</li>
+				<li data-v-menu-item data-v-if="category.children == 0">
+					<a href="https://plugins.vvveb.com/" data-v-menu-item-url><span data-v-menu-item-name>Plugins</span></a>
+				</li>
+	            <li data-v-menu-item><a href="about.html">About</a></li>
+				<li data-v-menu-item><a href="service.html">Service</a></li>
+				<li data-v-menu-item><a href="pricing.html">Pricing</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	 <div class="col-lg-3 col-md-6 col-sm-6" data-v-menu-item data-v-if="category.children > 0">
+			<div class="footer-widget footer-link">
+			<h4  class="text-capitalize mb-4" data-v-menu-item-name>Vvveb</h6>
+			<ul class="list-unstyled footer-menu lh-35" data-v-menu-item-recursive>
+				<li data-v-menu-item data-v-if="category.children == 0">
+					<a href="https://themes.vvveb.com/" data-v-menu-item-url><span data-v-menu-item-name>Themes</span></a>
+				</li>
+				<li data-v-menu-item data-v-if="category.children == 0">
+					<a href="https://plugins.vvveb.com/" data-v-menu-item-url><span data-v-menu-item-name>Plugins</span></a>
+				</li>
+	            <li data-v-menu-item><a href="about.html">About</a></li>
+				<li data-v-menu-item><a href="service.html">Service</a></li>
+				<li data-v-menu-item><a href="pricing.html">Pricing</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	 <div class="col-lg-3 col-md-6 col-sm-6" data-v-menu-item data-v-if="category.children > 0">
+			<div class="footer-widget footer-link">
+			<h4  class="text-capitalize mb-4" data-v-menu-item-name>Vvveb</h6>
+			<ul class="list-unstyled footer-menu lh-35" data-v-menu-item-recursive>
+				<li data-v-menu-item data-v-if="category.children == 0">
+					<a href="https://themes.vvveb.com/" data-v-menu-item-url><span data-v-menu-item-name>Themes</span></a>
+				</li>
+				<li data-v-menu-item data-v-if="category.children == 0">
+					<a href="https://plugins.vvveb.com/" data-v-menu-item-url><span data-v-menu-item-name>Plugins</span></a>
+				</li>
+	            <li data-v-menu-item><a href="about.html">About</a></li>
+				<li data-v-menu-item><a href="service.html">Service</a></li>
+				<li data-v-menu-item><a href="pricing.html">Pricing</a></li>
+			</ul>
+		</div>
+	</div>
 
-          <ul class="list-unstyled footer-menu lh-35">
-            <li><a href="about.html">About</a></li>
-            <li><a href="service.html">Services</a></li>
-            <li><a href="blog-grid.html">Blogs</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </div>
+<!--
       <div class="col-lg-3 col-md-6 col-sm-6 mx-auto">
         <div class="widget">
           <h4 class="text-capitalize mb-4">Subscribe Us</h4>
@@ -36,14 +78,20 @@
           </form>
         </div>
       </div>
-
-      <div class="col-lg-3 col-sm-6">
+-->
+      <div class="col-lg-3 col-sm-6"  data-v-component-site>
         <div class="widget">
           <div class="logo mb-4">
+		<div>	
+		   <img src="images/logo.png" loading="lazy" class="logo-default-dark" data-v-site-logo-dark>
+		   <img src="images/logo.png" loading="lazy" class="logo-default" data-v-site-logo>
+		</div>
+<!--
             <h3>Mega<span>kit.</span></h3>
+-->
           </div>
-          <h6><a href="mailto:support@gmail.com">Support@megakit.com</a></h6>
-          <a href="tel:+23-345-67890"><span class="text-color h4">+23-456-6588</span></a>
+          <h6><a href="mailto:contact@mysite.com" data-v-site-contact-email><i class="la la-envelope"></i> <span class="d-none d-md-inline text-muted" data-v-site-contact-email>contact@mysite.com</span></a></h6>
+	<a href="tel:5511112377" data-v-site-phone-number><i class="la la-phone"></i><span class="text-color h4" data-v-site-phone-number>+55 (111) 123 777</span></a>
         </div>
       </div>
     </div>
@@ -53,14 +101,15 @@
         <div class="col-lg-6">
           <div class="copyright">
             Copyright &copy; 2020, Designed &amp; Developed by <a href="https://themefisher.com/"
-              >Themefisher</a>
+              >Themefisher</a> Powered by <a href="https://www.vvveb.com/"
+              >Vvveb</a>
           </div>
         </div>
-        <div class="col-lg-6 text-left text-lg-right">
+        <div class="col-lg-6 text-left text-lg-end">
           <ul class="list-inline footer-socials">
-            <li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i class="fab fa-facebook-f mr-2"></i>Facebook</a></li>
-            <li class="list-inline-item"><a href="https://twitter.com/themefisher"><i class="fab fa-twitter mr-2"></i>Twitter</a></li>
-            <li class="list-inline-item"><a href="https://www.pinterest.com/themefisher/"><i class="fab fa-pinterest-p mr-2 "></i>Pinterest</a></li>
+            <li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i class="fab fa-facebook-f me-2"></i>Facebook</a></li>
+            <li class="list-inline-item"><a href="https://twitter.com/themefisher"><i class="fab fa-twitter me-2"></i>Twitter</a></li>
+            <li class="list-inline-item"><a href="https://www.pinterest.com/themefisher/"><i class="fab fa-pinterest-p me-2 "></i>Pinterest</a></li>
           </ul>
         </div>
       </div>

@@ -1,0 +1,78 @@
+<div class="sidebar-wrap">
+	<div class="sidebar-widget search card p-4 mb-3 border-0">
+		<form action="/search" method="get" data-v-action="/search">
+			<input type="hidden" name="route" value="search">
+			<input type="search" name="search" class="form-control" placeholder="search"  data-v-vvveb-action="search" data-v-vvveb-on="keyup">
+			<button  class="btn btn-mian btn-small d-block mt-2" type="submit">search</button>
+		</form>
+	</div>
+
+	<div class="sidebar-widget card border-0 mb-3">
+		<img loading="lazy" src="images/blog/blog-author.jpg" alt="blog-author" class="img-fluid">
+		<div class="card-body p-4 text-center">
+			<h5 class="mb-0 mt-4">Arther Conal</h5>
+			<p>Digital Marketer</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, dolore.</p>
+
+			<ul class="list-inline author-socials">
+				<li class="list-inline-item me-3">
+					<a href="#"><i class="fab fa-facebook-f text-muted"></i></a>
+				</li>
+				<li class="list-inline-item me-3">
+					<a href="#"><i class="fab fa-twitter text-muted"></i></a>
+				</li>
+				<li class="list-inline-item me-3">
+					<a href="#"><i class="fab fa-linkedin-in text-muted"></i></a>
+				</li>
+				<li class="list-inline-item me-3">
+					<a href="#"><i class="fab fa-pinterest text-muted"></i></a>
+				</li>
+				<li class="list-inline-item me-3">
+					<a href="#"><i class="fab fa-behance text-muted"></i></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="sidebar-widget latest-post card border-0 p-4 mb-3" data-v-component-posts="posts-1" data-v-limit="3" data-v-image_size="thumb">
+		<h5>Latest Posts</h5>
+
+		<div class="media border-bottom py-3" data-v-post>
+			<a href="#" data-v-post-url><img loading="lazy" class="me-4" src="images/blog/bt-3.jpg" alt="blog" loading="lazy" data-v-size="thumb" data-v-post-image></a>
+			<div class="media-body">
+				<h6 class="my-2"><a href="#" data-v-post-url><span data-v-post-name>Thoughtful living in los Angeles</span></a></h6>
+				<span class="text-sm text-muted" data-v-post-date_added data-filter-friendly_date>03 Mar 2018</span>
+			</div>
+		</div>
+
+		<div class="media border-bottom py-3" data-v-post>
+			<a href="#"><img loading="lazy" class="me-4" src="images/blog/bt-2.jpg" alt="blog"></a>
+			<div class="media-body">
+				<h6 class="my-2"><a href="#">Vivamus molestie gravida turpis.</a></h6>
+				<span class="text-sm text-muted">03 Mar 2018</span>
+			</div>
+		</div>
+
+		<div class="media py-3" data-v-post>
+			<a href="#"><img loading="lazy" class="me-4" src="images/blog/bt-1.jpg" alt="blog"></a>
+			<div class="media-body">
+				<h6 class="my-2"><a href="#">Fusce lobortis lorem at ipsum semper sagittis</a></h6>
+				<span class="text-sm text-muted">03 Mar 2018</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="sidebar-widget bg-white rounded tags p-4 mb-3" data-v-component-content-categories="sidebar" data-v-type="tags"  data-v-post_type="post">
+		<h5 class="mb-4">Tags</h5>
+		<div data-v-cats>
+			<span data-v-cat><a href="#" data-v-cat-url data-v-cat-name>Web</a></span>
+			<span data-v-cat><a href="#" data-v-cat-url data-v-cat-name>agency</a></span>
+			<span data-v-cat><a href="#" data-v-cat-url data-v-cat-name>company</a></span>
+			<span data-v-cat><a href="#" data-v-cat-url data-v-cat-name>creative</a></span>
+			<span data-v-cat><a href="#" data-v-cat-url data-v-cat-name>html</a></span>
+			<span data-v-cat><a href="#" data-v-cat-url data-v-cat-name>Marketing</a></span>
+			<span data-v-cat><a href="#" data-v-cat-url data-v-cat-name>Social Media</a></span>
+			<span data-v-cat><a href="#" data-v-cat-url data-v-cat-name>Branding</a></span>
+		</div>
+	</div>
+</div>
